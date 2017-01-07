@@ -406,7 +406,7 @@ fbUtils.fieldRender = function (fieldData, opts) {
       if (fieldOptions) {
 
         if (fieldData.placeholder) {
-          optionsMarkup += '<option disabled selected>' + fieldData.placeholder + '</option>';
+          optionsMarkup += '<option value disabled selected>' + fieldData.placeholder + '</option>';
         }
 
         for (var i = 0; i < fieldOptions.length; i++) {
